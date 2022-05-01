@@ -41,6 +41,7 @@ def cards_total(self, cards):
   total
   for card in cards:
     total += card.value
+    # I can only concatenate str to str, not  int (str(total))
     return "You have a total of" + total
   
 ```
